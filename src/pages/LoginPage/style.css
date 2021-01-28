@@ -1,0 +1,50 @@
+.form-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.form{
+    width: 80%;
+    height: 80%;
+
+    display: grid;
+    grid-template-rows:auto;
+}
+
+.form-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title{
+    height: 0;
+    font-weight: 700;
+}
+
+.form-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-inputs .form-label input{
+    width: 80vw;
+    height: 46px;
+}
+.form-inputs .form-label:first-child input{
+    margin-bottom: 15px;
+}
+
+.form-forget{
+    height: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+

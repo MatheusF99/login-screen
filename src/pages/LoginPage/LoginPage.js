@@ -1,6 +1,8 @@
 import React from 'react';
+
 import capeloImg from '../../assets/images/capelo.svg'
 
+import './style.css'
 // import { Container } from './styles';
 
 const LoginPage = () => {
@@ -9,8 +11,10 @@ const LoginPage = () => {
 
       <form className="form">
 
-        <img className="form-image" src={capeloImg}></img>
-        <h1 className="form-title">Bem-vindo!</h1>
+        <div  className="form-image">
+          <img alt="capelo" src={capeloImg}></img>
+        </div>
+        <h1 className="form-title">Bem-Vindo!</h1>
 
         <div className="form-inputs">
 
@@ -22,10 +26,6 @@ const LoginPage = () => {
               placeholder="E-mail"
             />
           </label>
-          
-        </div>
-
-        <div className="form-inputs">
 
           <label className="form-label">
             <input 
@@ -37,9 +37,9 @@ const LoginPage = () => {
           </label>
 
         </div>
-        <span>Esqueceu a senha?</span>
+        <span className="form-forget">Esqueceu a senha?</span>
         
-        <button className="form-input-bnt" type="submit">LoginPage</button>
+        <button className="form-input-bnt" type="submit">Login</button>
 
         <span> Não possui conta? <strong>Fale conosco</strong> </span>
       </form>
