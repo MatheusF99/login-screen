@@ -39,9 +39,9 @@ const LoginPage = () => {
         </div>
         <span className="form-forget">Esqueceu a senha?</span>
         
-        <button className="form-input-bnt" type="submit">Login</button>
+        <button className="form-input-btn" type="submit">Login</button>
 
-        <span> Não possui conta? <strong>Fale conosco</strong> </span>
+        <span className="form-not-account"> Não possui conta? <strong>Fale conosco</strong> </span>
       </form>
 
     </div>
