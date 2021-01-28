@@ -41,7 +41,7 @@ const LoginPage = () => {
         
         <button className="form-input-btn" type="submit">Login</button>
 
-        <span className="form-not-account"> Não possui conta? <strong>Fale conosco</strong> </span>
+        <span className="form-not-account"> Não possui conta ? <strong> Fale conosco</strong> </span>
       </form>
 
     </div>
