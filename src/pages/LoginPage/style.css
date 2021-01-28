@@ -22,22 +22,40 @@
 }
 
 .form-title{
-    height: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 50px;
     font-weight: 700;
 }
 
-.form-inputs{
+/* .form-inputs{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    max-height: 100%;
+} */
+
+input:focus:placeholder{
+    color: transparent;
+}
+input::placeholder{
+    transition: color .3s ease;
 }
 
 .form-inputs .form-label input{
     width: 80vw;
     height: 46px;
+
+    padding-left: 16px;
+
+    border: 2px solid #ECE9F5;
+    border-radius: 16px;
 }
-.form-inputs .form-label:first-child input{
+
+.form-inputs input:first-child {
     margin-bottom: 15px;
 }
 

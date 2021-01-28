@@ -14,9 +14,9 @@ const LoginPage = () => {
         <div  className="form-image">
           <img alt="capelo" src={capeloImg}></img>
         </div>
-        <h1 className="form-title">Bem-Vindo!</h1>
 
         <div className="form-inputs">
+        <h1 className="form-title">Bem-Vindo!</h1>
 
           <label className="form-label">
             <input 
