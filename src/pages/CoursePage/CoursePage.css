@@ -1,0 +1,55 @@
+.CoursePage{
+    width: 80vw;
+    height: 85vh;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+
+    width: 78vw;
+
+    margin-bottom: 25px;
+}
+
+.div-course{
+
+    width: 300px;
+    height: 86px;
+
+    padding: 24px 22px;
+
+    background: #333333;
+    border-radius: 16px;
+    color: #ffffff;
+
+    margin-bottom: 32px;
+
+}
+
+.data-course p{
+    margin-top: 20px;
+    margin-left: 16px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.course-data{
+    
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 5px;
+
+}
+
+.div-periods{
+    width: 300px;
+    height: 48px;
+}
+
+.period{
+    
+}

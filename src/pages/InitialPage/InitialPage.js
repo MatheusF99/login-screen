@@ -3,14 +3,14 @@ import React from 'react';
 import './initialPage.css'
 // import { Container } from './styles';
 
-function InitialPage() {
+const InitialPage = () => {
   return (
     <div className="initial-div">
       <div className="div-title">
         <h2>Horarios</h2>
       </div>
 
-      <h1 className='text-hello'> <strong>Olá</strong>  Pedriana</h1>
+      <h1 className='text-hello'> <strong>Olá</strong>  Pedriana!</h1>
       
         <div className="title-courses">
           <p>Cursos</p>
