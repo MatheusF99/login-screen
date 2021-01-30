@@ -12,11 +12,11 @@ function InitialPage() {
 
       <h1 className='text-hello'> <strong>Olá</strong>  Pedriana</h1>
       
-      <div className="info-courses">
         <div className="title-courses">
           <p>Cursos</p>
           <span>Ver Todos</span>
         </div>
+      <div className="info-courses">
         
         <div className="div-courses">
 
@@ -27,7 +27,23 @@ function InitialPage() {
               <span>Noturno</span>
             </div>
           </div>
-          
+
+          <div className="course">
+            <p>Direito</p>
+            <div className="data-course">
+              <span>12 Periodos</span>
+              <span>matutino</span>
+            </div>
+          </div>
+
+          <div className="course">
+            <p>Sistemas de informaçoes</p>
+            <div className="data-course">
+              <span>8 Periodos</span>
+              <span>Noturno</span>
+            </div>
+          </div>
+
           <div className="course">
             <p>Direito</p>
             <div className="data-course">
