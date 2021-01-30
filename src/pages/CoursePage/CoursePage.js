@@ -23,8 +23,8 @@ const CoursePage = () => {
         <div className="div-periods">
             <div className="period">
                 <span>1° Periodo</span>
-                <button> &gt; </button>
             </div>
+            <button> &gt; </button>
         </div>
 
       </div>
