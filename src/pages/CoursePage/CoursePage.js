@@ -26,6 +26,48 @@ const CoursePage = () => {
             </div>
             <button> &gt; </button>
         </div>
+        <div className="div-periods">
+            <div className="period">
+                <span>2° Periodo</span>
+            </div>
+            <button> &gt; </button>
+        </div>
+        <div className="div-periods">
+            <div className="period">
+                <span>3° Periodo</span>
+            </div>
+            <button> &gt; </button>
+        </div>
+        <div className="div-periods">
+            <div className="period">
+                <span>4° Periodo</span>
+            </div>
+            <button> &gt; </button>
+        </div>
+        <div className="div-periods">
+            <div className="period">
+                <span>5° Periodo</span>
+            </div>
+            <button> &gt; </button>
+        </div>
+        <div className="div-periods">
+            <div className="period">
+                <span>6° Periodo</span>
+            </div>
+            <button> &gt; </button>
+        </div>
+        <div className="div-periods">
+            <div className="period">
+                <span>7° Periodo</span>
+            </div>
+            <button> &gt; </button>
+        </div>
+        <div className="div-periods">
+            <div className="period">
+                <span>8° Periodo</span>
+            </div>
+            <button> &gt; </button>
+        </div>
 
       </div>
   );
