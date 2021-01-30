@@ -10,7 +10,7 @@ function InitialPage() {
         <h2>Horarios</h2>
       </div>
 
-      <h1 className='text-hello'>Olá Pedriana</h1>
+      <h1 className='text-hello'> <strong>Olá</strong>  Pedriana</h1>
       
       <div className="info-courses">
         <div className="title-courses">
@@ -19,31 +19,23 @@ function InitialPage() {
         </div>
         
         <div className="div-courses">
+
           <div className="course">
             <p>Sistemas de informaçoes</p>
-            <span>8 Periodo</span>
-            <span>Noturno</span>
+            <div className="data-course">
+              <span>8 Periodos</span>
+              <span>Noturno</span>
+            </div>
           </div>
-          {/* <div className="course">
-            <p>Sistemas de informaçoes</p>
-            <p>8 Periodo</p>
-            <p>Noturno</p>
-          </div>
+          
           <div className="course">
-            <p>Sistemas de informaçoes</p>
-            <p>8 Periodo</p>
-            <p>Noturno</p>
+            <p>Direito</p>
+            <div className="data-course">
+              <span>12 Periodos</span>
+              <span>matutino</span>
+            </div>
           </div>
-          <div className="course">
-            <p>Sistemas de informaçoes</p>
-            <p>8 Periodo</p>
-            <p>Noturno</p>
-          </div>
-          <div className="course">
-            <p>Sistemas de informaçoes</p>
-            <p>8 Periodo</p>
-            <p>Noturno</p>
-          </div> */}
+
         </div>
       </div>
 

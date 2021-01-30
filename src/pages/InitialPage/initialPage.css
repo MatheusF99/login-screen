@@ -10,7 +10,7 @@
 
 .div-title h2{
     height: 30px;
-
+    font-weight: 400;
 }
 
 
@@ -19,10 +19,14 @@
     padding-bottom: 16px;
 
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 34px;
 }
 
 .info-courses{
+
+    position: relative;
+
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -30,7 +34,7 @@
 }
 
 .title-courses{
-    max-width: 80vw;
+    
     display: flex;
     justify-content: space-between;
 
@@ -38,15 +42,18 @@
 }
 
 .div-courses{
+    
+    width: 450px;
+
     display: flex;
     justify-content: space-between;
-    min-width: 100%;
 
     margin-bottom: 24px;
 
 }
 
 .course{
+
     width: 213px;
     height: 86px;
 
@@ -59,12 +66,16 @@
 .course p{
     margin-top: 20px;
     margin-left: 16px;
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.course{
+.data-course{
+    margin: 8px 16px 0px;
+
+    display: flex;
     justify-content: space-between;
 }
 
@@ -73,7 +84,9 @@
     height: 16px;
 } */
 
-
+.div-register{
+    position: relative;
+}
 
 .register-title{
     margin-bottom: 16px;
