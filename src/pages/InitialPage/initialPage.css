@@ -5,6 +5,7 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+
 }
 
 .div-title h2{
@@ -14,7 +15,11 @@
 
 
 .text-hello{
-    
+    padding-top: 32px;
+    padding-bottom: 16px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .info-courses{
@@ -28,12 +33,16 @@
     max-width: 80vw;
     display: flex;
     justify-content: space-between;
+
+    margin-bottom: 16px;
 }
 
 .div-courses{
     display: flex;
     justify-content: space-between;
     min-width: 100%;
+
+    margin-bottom: 24px;
 
 }
 
@@ -45,14 +54,27 @@
     border-radius: 16px;
     color: #ffffff;
 
-    padding: 16px 22px;
 }
 
-.course p {
+.course p{
+    margin-top: 20px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.course{
+    justify-content: space-between;
+}
+
+/* .course p {
     width: 70px;
     height: 16px;
-}
+} */
 
-.div-register{
 
+
+.register-title{
+    margin-bottom: 16px;
 }

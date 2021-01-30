@@ -21,8 +21,8 @@ function InitialPage() {
         <div className="div-courses">
           <div className="course">
             <p>Sistemas de informaçoes</p>
-            <p>8 Periodo</p>
-            <p>Noturno</p>
+            <span>8 Periodo</span>
+            <span>Noturno</span>
           </div>
           {/* <div className="course">
             <p>Sistemas de informaçoes</p>
@@ -46,11 +46,13 @@ function InitialPage() {
           </div> */}
         </div>
       </div>
-      <p>Inicio</p>
 
       <div className="div-register">
-        <i>icone</i>
-        <p>cadastrar professor</p>
+        <p className='register-title'>Inicio</p>
+        <div className="box-register">
+          <i>icone</i>
+          <p>cadastrar professor</p>
+        </div>
       </div>
     </div>
   );
