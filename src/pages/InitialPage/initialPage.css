@@ -1,0 +1,58 @@
+.initial-div{
+    width: 80vw;
+    height: 80vh;
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-title h2{
+    height: 30px;
+
+}
+
+
+.text-hello{
+    
+}
+
+.info-courses{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.title-courses{
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-courses{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+
+}
+
+.course{
+    width: 213px;
+    height: 86px;
+
+    background: #333333;
+    border-radius: 16px;
+    color: #ffffff;
+
+    padding: 16px 22px;
+}
+
+.course p {
+    width: 70px;
+    height: 16px;
+}
+
+.div-register{
+
+}
