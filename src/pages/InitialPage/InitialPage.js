@@ -59,7 +59,7 @@ function InitialPage() {
         <p className='register-title'>Inicio</p>
         <div className="box-register">
           <i>icone</i>
-          <p>cadastrar professor</p>
+          <span>cadastrar professor</span>
         </div>
       </div>
     </div>
