@@ -3,6 +3,7 @@ import CoursePage from './pages/CoursePage/CoursePage';
 import InitialPage from './pages/InitialPage/InitialPage';
 
 import LoginPage from "./pages/LoginPage/LoginPage";
+import PeriodoPage from './pages/PeriodoPage/PeriodoPage';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
       {/* <LoginPage /> */}
       {/* <InitialPage /> */}
-      <CoursePage />
+      {/* <CoursePage /> */}
+      <PeriodoPage />
     </div>
   );
 }
