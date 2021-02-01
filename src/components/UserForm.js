@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import FormPersonalDetails from './FormPersonalDetails'
 
 import FormUSerDetails from './FormUserDetails'
 
@@ -9,7 +10,7 @@ class UserForm extends Component {
         firstName:'',
         lastName:'',
         email:'',
-        ocupation:'',
+        occupation:'',
         city:'',
         bio:'',
 
@@ -38,13 +39,13 @@ class UserForm extends Component {
 
     render() {
         const { step } = this.state
-        const { firstName, lastName, email, ocupation, city, bio } = this.state
+        const { firstName, lastName, email, occupation, city, bio } = this.state
 
         const values = {
             firstName, 
             lastName, 
             email, 
-            ocupation, 
+            occupation, 
             city, 
             bio
         }
@@ -59,7 +60,14 @@ class UserForm extends Component {
                     />
                 )
             case 2:
-                return <h1>FormPersonalDetails</h1>
+                return (
+                    <FormPersonalDetails 
+                        nextStep = {this.nextStep}
+                        prevStep = {this.prevStep}
+                        handleChange={this.handleChange}
+                        values={values}
+                    />
+                )
             case 3:
                 return <h1>Confirm</h1>
             case 4:

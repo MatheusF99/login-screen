@@ -5,7 +5,7 @@ import TextField from 'material-ui/TextField'
 import RaisedButton from 'material-ui/RaisedButton'
 class FormUserDetails extends Component {
 
-    continue= e =>{
+    continue = e =>{
         e.preventDefault();
         this.props.nextStep();
     }
@@ -38,7 +38,7 @@ class FormUserDetails extends Component {
                     <br/>
                     <RaisedButton 
                         label="Continue"
-                        primary="true"
+                        primary={true}
                         styles={
                             styles.button
                         }
