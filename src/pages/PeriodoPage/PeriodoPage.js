@@ -18,7 +18,7 @@ const PeriodoPage =() => {
                 <button> &gt; </button>
             </div>
 
-            <p>Segunda-feira</p>
+            <p className="week-day">Segunda-feira</p>
 
 
             <div className="div-course">
@@ -42,7 +42,7 @@ const PeriodoPage =() => {
                 </div>
             </div>
 
-            <p>Terça-feira</p>
+            <p className="week-day">Terça-feira</p>
 
 
             <div className="div-course">

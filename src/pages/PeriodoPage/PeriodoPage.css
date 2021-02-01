@@ -12,6 +12,15 @@
     margin-bottom: 25px;
 }
 
+h1{
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    line-height: 41px;
+
+    margin-bottom: 24px;
+}
+
 .div-periods{
     width: 300px;
     height: 48px;
@@ -41,4 +50,40 @@
     border: none;
 
     border-radius: 0 16px 16px 0;
+}
+
+.div-course{
+
+    width: 300px;
+    height: 86px;
+
+    padding: 24px 22px;
+
+    background: #333333;
+    border-radius: 16px;
+    color: #ffffff;
+
+    margin-bottom: 8px;
+
+}
+
+.data-course p{
+    margin-top: 8px;
+    margin-left: 16px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.course-data{
+    
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.week-day{
+    margin: 16px 0;
 }
