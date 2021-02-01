@@ -1,10 +1,11 @@
 import './App.css'
-import TeacherPage from './pages/TeacherPage/TeacherPage'
-// import CoursePage from './pages/CoursePage/CoursePage';
-// import InitialPage from './pages/InitialPage/InitialPage';
-
+import RegisterPage from './pages/RegisterPage/RegisterPage'
 // import LoginPage from "./pages/LoginPage/LoginPage";
+// import InitialPage from './pages/InitialPage/InitialPage';
+// import CoursePage from './pages/CoursePage/CoursePage';
 // import PeriodoPage from './pages/PeriodoPage/PeriodoPage';
+// import TeacherPage from './pages/TeacherPage/TeacherPage'
+
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/* <InitialPage /> */}
       {/* <CoursePage /> */}
       {/* <PeriodoPage /> */}
-      <TeacherPage />
+      {/* <TeacherPage /> */}
+      <RegisterPage />
     </div>
   );
 }
