@@ -1,0 +1,44 @@
+.periodo-page{
+    width: 80vw;
+    height: 85vh;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+
+    width: 78vw;
+
+    margin-bottom: 25px;
+}
+
+.div-periods{
+    width: 300px;
+    height: 48px;
+
+    background: #E5E5E5;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 16px;
+
+    margin-bottom: 16px;
+
+}
+
+.period{
+    padding: 0 22px;
+}
+
+.div-periods button{
+    width: 42px;
+    height: 48px;
+
+    background: #c4c4c4;
+
+    border: none;
+
+    border-radius: 0 16px 16px 0;
+}

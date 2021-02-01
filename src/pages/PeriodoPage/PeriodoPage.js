@@ -1,13 +1,15 @@
 import React from 'react';
-
+import './PeriodoPage.css'
 // import { Container } from './styles';
 
 const PeriodoPage =() => {
     return (
-        <div className="periodopage">
+        <div className="periodo-page">
             <div className="nav-bar">
                 <a> &lt;- </a>
             </div>
+
+            <h1>Aulas</h1>
 
             <div className="div-periods">
                 <div className="period">
