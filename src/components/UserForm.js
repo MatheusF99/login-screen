@@ -32,7 +32,7 @@ class UserForm extends Component {
 
 
     //handle field change
-    handleChange = input = e => {
+    handleChange = input => e => {
         this.setState({[input]: e.target.value})
     }
 
