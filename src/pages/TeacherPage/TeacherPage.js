@@ -11,12 +11,17 @@
 
             <h1>Professor</h1>
 
+            <h2 className="teacher-name">Pedriana Pavao</h2>
+
+            <p>curso</p>
             <div className="div-periods">
                 <div className="period">
-                    <span>1° Periodo</span>
+                    <span>Sistemas de Informacao</span>
                 </div>
                 <button> &gt; </button>
             </div>
+
+            <p>1° Periodo</p>
 
             <p className="week-day">Segunda-feira</p>
 
@@ -34,8 +39,6 @@
 
             <p className="week-day">Terça-feira</p>
 
-
-            
             <div className="div-course">
                 <div className="course-data">
                     <span>Algotimos</span>

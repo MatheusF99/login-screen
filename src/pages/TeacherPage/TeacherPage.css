@@ -21,15 +21,22 @@ h1{
     margin-bottom: 24px;
 }
 
+.teacher-name{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
 .div-periods{
     width: 300px;
     height: 48px;
 
-    background: #E5E5E5;
+    background: #ffffff;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    border: 1px solid #c4c4c4;
 
     border-radius: 16px;
 
@@ -45,9 +52,11 @@ h1{
     width: 42px;
     height: 48px;
 
-    background: #c4c4c4;
+    background: #ffffff;
 
-    border: none;
+    border: 1px solid #c4c4c4;
+
+    border-left: none;
 
     border-radius: 0 16px 16px 0;
 }
