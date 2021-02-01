@@ -11,35 +11,35 @@ function RegisterPage() {
                 <a className="prev-1 prev"> &lt;- </a>
                 <a className="next"> Proximo </a>
             </div>
-              <form action="#">
+            <form action="#">
 
-                  <div className="page">
-                      
-                      <div className="field">
-                        <label htmlFor=""> Qual o nome do curso? </label>
-                        <select name="" id="">
-                            <option value="">Sistemas de informação</option>
-                            <option value="">Direito</option>
-                            <option value="">Estetica</option>
-                        </select>
-                      </div>
+                <div className="page">
+                    
+                    <div className="field">
+                    <label htmlFor=""> Qual o nome do curso? </label>
+                    <select name="" id="">
+                        <option value="">Sistemas de informação</option>
+                        <option value="">Direito</option>
+                        <option value="">Estetica</option>
+                    </select>
+                    </div>
 
-                  </div>
+                </div>
 
-                  <div className="page">
-                      
-                      <div className="field">
-                        <label htmlFor="">Qual o turno</label>
-                        <select name="" id="">
-                            <option value="">Matutino</option>
-                            <option value="">vespertino</option>
-                            <option value="">Noturno</option>
-                        </select>
-                      </div>
+                <div className="page">
+                    
+                    <div className="field">
+                    <label htmlFor="">Qual o turno</label>
+                    <select name="" id="">
+                        <option value="">Matutino</option>
+                        <option value="">vespertino</option>
+                        <option value="">Noturno</option>
+                    </select>
+                    </div>
 
-                  </div>
+                </div>
 
-              </form>
+            </form>
 
           </div>
 
