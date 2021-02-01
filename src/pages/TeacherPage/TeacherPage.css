@@ -24,6 +24,11 @@ h1{
 .teacher-name{
     margin-top: 24px;
     margin-bottom: 32px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .div-periods{
@@ -35,6 +40,8 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    margin-top: 16px;
 
     border: 1px solid #c4c4c4;
 
@@ -74,23 +81,22 @@ h1{
 
     margin-bottom: 8px;
 
+    display: flex;
+    justify-content: space-between;
 }
 
-.data-course p{
-    margin-top: 8px;
-    margin-left: 16px;
-
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.div-course .course-name{
+    padding: 10px 0;
 }
 
 .course-data{
-    
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
 
-
+.course-data p{
+    margin-top: 8px;
+    margin-left: 16px;
 }
 
 .week-day{

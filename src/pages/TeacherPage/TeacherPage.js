@@ -27,12 +27,9 @@
 
 
             <div className="div-course">
+                <span className="course-name">Algotimos</span>
                 <div className="course-data">
-                    <span>Algotimos</span>
                     <span>20:50</span>
-                </div>
-                <div className="course-data">
-                    <span>Arivaldo</span>
                     <span>22:00</span>
                 </div>
             </div>
@@ -40,12 +37,9 @@
             <p className="week-day">Terça-feira</p>
 
             <div className="div-course">
+                <span className="course-name">Algotimos</span>
                 <div className="course-data">
-                    <span>Algotimos</span>
                     <span>20:50</span>
-                </div>
-                <div className="course-data">
-                    <span>Arivaldo</span>
                     <span>22:00</span>
                 </div>
             </div>
