@@ -25,7 +25,7 @@ function RegisterPage() {
                 <div className="page">
                     
                     <div className="field">
-                        <label htmlFor="">Qual o turno</label>
+                        <label htmlFor="">Qual o turno?</label>
                         <select className="select" name="turn" id="turn">
                             <option value="">Matutino</option>
                             <option value="">vespertino</option>

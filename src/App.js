@@ -1,5 +1,5 @@
 import './App.css'
-import RegisterPage from './pages/RegisterPage/RegisterPage'
+// import RegisterPage from './pages/RegisterPage/RegisterPage'
 // import LoginPage from "./pages/LoginPage/LoginPage";
 // import InitialPage from './pages/InitialPage/InitialPage';
 // import CoursePage from './pages/CoursePage/CoursePage';
@@ -16,7 +16,7 @@ function App() {
       {/* <CoursePage /> */}
       {/* <PeriodoPage /> */}
       {/* <TeacherPage /> */}
-      <RegisterPage />
+      {/* <RegisterPage /> */}
     </div>
   );
 }
