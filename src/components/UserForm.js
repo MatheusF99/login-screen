@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
-export class UserForm extends Component {
+import FormUSerDetails from './FormUserDetails'
+
+class UserForm extends Component {
 
     state={
         step: 1,
@@ -46,11 +48,23 @@ export class UserForm extends Component {
             city, 
             bio
         }
-        return (
-            <div>
-                
-            </div>
-        )
+        
+        switch(step){
+            case 1:
+                return(
+                    <FormUSerDetails 
+                        nextStep = {this.nextStep}
+                        handleChange={this.handleChange}
+                        values={values}
+                    />
+                )
+            case 2:
+                return <h1>FormPersonalDetails</h1>
+            case 3:
+                return <h1>Confirm</h1>
+            case 4:
+                return <h1>Sucess</h1>
+        }
     }
 }
 

@@ -1,4 +1,5 @@
 import './App.css'
+import UserForm from './components/UserForm'
 // import RegisterPage from './pages/RegisterPage/RegisterPage'
 // import LoginPage from "./pages/LoginPage/LoginPage";
 // import InitialPage from './pages/InitialPage/InitialPage';
@@ -17,6 +18,7 @@ function App() {
       {/* <PeriodoPage /> */}
       {/* <TeacherPage /> */}
       {/* <RegisterPage /> */}
+      <UserForm />
     </div>
   );
 }
